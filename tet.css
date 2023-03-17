@@ -1,0 +1,159 @@
+
+
+
+
+
+.container{
+    position: fixed; 
+    top: 0; 
+    bottom: 0;
+    left: 0; 
+    right: 0; 
+
+}
+.all{
+    position: absolute; 
+    width: 400px; 
+    height: 450px; 
+    top:0; 
+    bottom:0; 
+    left:0; 
+    right: 0; 
+    margin: auto; 
+    background: #bae8e8; 
+    border: solid 2px #272343;
+    border-radius: 10px;
+    text-align:center
+}
+.title{
+    text-align: center;
+    color: #272343;
+}
+
+.usersname{
+    border: #272343 2px solid;
+    outline: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background-color: #bae8e8;
+    width: 200px;
+    height: 20px;
+    margin-top: 25px;
+}
+.mdp{
+    border: #272343 2px solid;
+    outline: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background-color: #bae8e8;
+    width: 200px;
+    height: 20px;
+    margin-top: 25px;
+}
+.confirm_mdp{
+    border: #272343 2px solid;
+    outline: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background-color: #bae8e8;
+    width: 200px;
+    height: 20px;
+    margin-top: 25px;
+}
+
+.submit{
+    border: #272343 2px solid;
+    background-color: #bae8e8;
+    border-radius: 15px;
+    width: 200px;
+    height: 25px;
+    align-items: center;
+    margin-top: 60px;
+}
+input::placeholder{
+    color: #272343;
+}
+
+@media screen and (max-width : 330px) {
+    .all{
+        width: 200px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:770px) {
+    .all{
+        width: 350px;
+        height: 400px;
+    }
+    .title{
+        font-size: 28px;
+        margin-top: 20px;
+    }
+    .usersname{
+        width: 150px;
+        height: 10px;
+        margin-top: 20px;
+    }
+    .mdp{
+        width: 150px;
+        height: 10px;
+        margin-top: 20px;
+    }
+    .confirm_mdp{
+        width: 150px;
+        height: 10px;
+        margin-top: 20px;
+
+    }
+    .submit{
+        width: 150px;
+        height: 20px;
+        font-size: 10px;
+        margin-top: 40px;
+    }
+    input::placeholder{
+        font-size: 13px;
+    }
+} 
+
+@media screen and (min-width : 2000px){
+    .all{
+    width: 600px;
+    height: 650px;
+    }
+    .title{
+        font-size: 45px;
+    }
+    .usersname{
+        width: 400px;
+        height: 40px;
+        font-size: 22px;
+        border-width: 3px;
+        margin-top: 50px;
+    }
+    .mdp{
+        width: 400px;
+        height: 40px;
+        font-size: 22px;
+        border-width: 3px;
+        margin-top: 50px;
+    }
+    .confirm_mdp{
+        width: 400px;
+        height: 40px;
+        font-size: 22px;
+        border-width: 3px;
+        margin-top: 50px;
+    }
+    .submit{
+        width: 400px;
+        height: 50px;
+        border-radius: 100px;
+        font-size: 22px;
+    }
+}
+ 

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tet.css">
+    <link rel="stylesheet" href="tetprt2.css">
+</head>
+<body>
+    <div class="container">
+        <div class="all">
+            <form method="post" action="?php echo $_SERVER [ 'PHP_SELF' ]; ?>">
+                <h1 class="title">Créer un compte</h1><br>
+                <input type="text" name="pseudo" placeholder="Nom d'utilisateur" class="usersname"><br><br>
+                    <input type="password" name="mdp" placeholder="Mot de passe" class="mdp"><br><br>
+                    <input type="password" name="confirm_mdp" placeholder="Confimer le mot de passe" class="confirm_mdp"><br><br>
+                <input type="submit" name="go" placeholder="Se connecter" class="submit">
+            </form>
+        </div>  
+      </div>  
+    
+<style>
+@media screen and (max-width: 430px){
+    .all{
+        width:250px;
+    }
+}
+
+
+
+</style>
+
+
+ 
+</body>
+</html>
